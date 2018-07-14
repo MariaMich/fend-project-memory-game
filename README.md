@@ -6,8 +6,11 @@ The game has eight pairs of identical cards that are shuffled every time. Once t
 # Resources:
 
 The fonts used where from: https://fonts.google.com/?selection.family=Knewave|Ubuntu
+
 The shuffle function in the app.js file was from: http://stackoverflow.com/a/2450976
+
 The starter code was provided by Udacity: https://github.com/udacity/fend-project-memory-game
+
 This video from Mike Wales helped me a lot: https://www.youtube.com/watch?v=_rUH-sEs68Y
 
 # How to play:
