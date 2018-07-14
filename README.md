@@ -17,13 +17,13 @@ This video from Mike Wales helped me a lot: https://www.youtube.com/watch?v=_rUH
 
 Load up this page: https://codepen.io/MaroMich/full/zLvvNo
 
-1)Click on a card and memorise it
+1) Click on a card and memorise it
 
-2)Match all the identical cards into pairs
+2) Match all the identical cards into pairs
 
-3)See your rating, time and moves at the score panel
+3) See your rating, time and moves at the score panel
 
-4)Hit the restart button if you want to play again!
+4) Hit the restart button if you want to play again!
 
 # Coding the project:
 
