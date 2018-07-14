@@ -1,4 +1,4 @@
-# Memory Card Game Project
+# Memory Card Game
 
 How the game works:
 The game has eight pairs of identical cards that are shuffled every time. Once the player starts playing a timer starts running and a counter is recording how many moves are made. After all cards are matched the game is over and a popup message shows up informing the  player of their rating based on how many moves they made and the total time they played.
