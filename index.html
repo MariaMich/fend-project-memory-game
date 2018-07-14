@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Memory Card Game</title>
+	<meta content="" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet prefetch">
+	<link href="https://fonts.googleapis.com/css?family=Knewave|Ubuntu" rel="stylesheet">
+	<link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Memory Card Game</h1>
+		</header>
+		<section class="score-panel">
+			<ul class="score">
+				<li><i class="fa fa-star"></i></li>
+				<li><i class="fa fa-star"></i></li>
+				<li><i class="fa fa-star"></i></li>
+			</ul><span class="moves">0</span> Move(s)
+			<div class="time"></div>
+			<div class="restart" onclick="startGame()">
+				<i class="fa fa-repeat"></i>
+			</div>
+		</section>
+		<ul class="stack" id="card-stack">
+			<li class="card" type="laptop"><i class="fa fa-laptop"></i></li>
+			<li class="card" type="database"><i class="fa fa-database"></i></li>
+			<li class="card match" type="code-fork"><i class="fa fa-code-fork"></i></li>
+			<li class="card" type="code"><i class="fa fa-code"></i></li>
+			<li class="card" type="wifi"><i class="fa fa-wifi"></i></li>
+			<li class="card match" type="power-off"><i class="fa fa-power-off"></i></li>
+			<li class="card" type="gamepad"><i class="fa fa-gamepad"></i></li>
+			<li class="card" type="map-marker"><i class="fa fa-map-marker"></i></li>
+			<li class="card" type="laptop"><i class="fa fa-laptop"></i></li>
+			<li class="card" type="database"><i class="fa fa-database"></i></li>
+			<li class="card" type="code-fork"><i class="fa fa-code-fork"></i></li>
+			<li class="card" type="code"><i class="fa fa-code"></i></li>
+			<li class="card open show" type="wifi"><i class="fa fa-wifi"></i></li>
+			<li class="card" type="power-off"><i class="fa fa-power-off"></i></li>
+			<li class="card" type="gamepad"><i class="fa fa-gamepad"></i></li>
+			<li class="card" type="map-marker"><i class="fa fa-map-marker"></i></li>
+		</ul>
+		<div class="overlay" id="message1">
+			<div class="message">
+				<h2>Congratulations!</h2><a class="close" href="#">×</a>
+				<div class="content-1">
+					You finished the game!
+				</div>
+				<div class="content-2">
+					<p>You made <span id="finalMove"></span> moves</p>
+					<p>in <span id="totalTime"></span></p>
+					<p>Rating: <span id="Rating"></span></p>
+				</div><button id="play-again" onclick="playAgain()">Play again </button>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.js">
+	</script><!--
+Copyright (c) 2018 by Maria Michailidou (https://codepen.io/MaroMich/pen/zLvvNo)
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+</body>
+</html>
